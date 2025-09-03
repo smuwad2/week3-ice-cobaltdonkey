@@ -12,26 +12,27 @@
 <body>
     <div class="container mt-5">
         <form>
+            <!-- Row 1: Name, Email, Gender -->
             <div class="row g-3">
-                <div>
-                    <label for="fullName">Full Name</label>
+                <div class="col">
+                    <label class="d-block" "fullName">Full Name</label>
                     <input type="text" id="fullName">
                 </div>
 
                 <!-- Email -->
-                <div>
-                    <label for="email">Email address</label>
+                <div class="col">
+                    <label class="d-block" for="email">Email address</label>
                     <input type="email" id="email">
                 </div>
 
                 <!-- Gender -->
-                <div>
-                    <label>Gender</label>
-                    <div>
+                <div class="col">
+                    <label class="form-label d-block">Gender</label>
+                    <div class="form-check-inline">
                         <input type="radio" name="gender" id="male" value="male">
                         <label for="male">Male</label>
                     </div>
-                    <div>
+                    <div class="form-check-inline">
                         <input type="radio" name="gender" id="female" value="female">
                         <label for="female">Female</label>
                     </div>
